@@ -80,7 +80,7 @@ Our bot was designed specifically to eliminate these hidden costs through profes
 - **✅ Atomic Execution**: We use `cancelAndPlaceOrders` to ensure your old orders are removed and new ones placed in the **same block**. This eliminates the "latency gap" where you are exposed without orders.
 - **✅ Maker-Only Focus**: Our logic is hardcoded to ensure you stay on the maker side of the book, capturing rebates instead of paying taker fees.
 - **✅ Railway Integration**: By deploying on Railway's high-performance edge nodes, we place your bot as close as possible to the exchange validators, minimizing network ping.
-- **✅ Self-Healing Architecture**: If the bot encounters a network error, it doesn't crash. It captures the error, logs it, and retries in the next 500ms cycle, ensuring 99.9% operational uptime.
+- **✅ Self-Healing Architecture**: If the bot encounters a network error, it doesn't crash. It captures the error, logs it, and retries in the next cycle, ensuring 99.9% operational uptime.
 
 **Stop losing money to invisible costs. Upgrade to a professional architecture.**
 
